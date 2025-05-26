@@ -6,19 +6,6 @@
     <font color=#a0a0a0 size=4> The framework of the Lvox2Hik</font>
 </div>
 
-## Boundary reconstruction
-<div align="center">
-    <img src="pics/f_boundary_reconstruction.jpg" width = 50%><br>
-    <font color=#a0a0a0 size=4> The boudary point reconstruction process in the LiDAR module of the Lvox2Hik</font>
-</div>
-
-
-## corner extraction
-<div align="center">
-    <img src="pics/f_corner_extraction.jpg" width = 80%><br>
-    <font color=#a0a0a0 size=4> The corner extraction process in the camera module of the Lvox2Hik</font>
-</div>
-
 ## colorlized Point cloud  example
 <div align="center">
     <img src="pics/f_hand_hold.jpg" width = 50% ><br>
