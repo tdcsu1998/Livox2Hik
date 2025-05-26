@@ -1,5 +1,5 @@
-# Livox2Hik
-**Livox2Hik** is target-based extrinsic calibration method for the non-repetitive LiDAR(NRL) and RGB camera. This method use a known four-hole calibration board as the target. It mainly include two modules: (1) the LiDAR module, and (2) the camera module. The first mudule is specially designed for the NRL, the main process is reconstruct the boundary points of the detected target point cloud, to increase the accuracy of the hole center detection. The second module proposes a new method to get better corner estimation of the ArUco markers, therefore better hole center extraction for board pose estimation. The source code will be release after the acceptance.
+# OTPS-Calib
+**OTPS-Calib** is target-based extrinsic calibration method for the non-repetitive LiDAR(NRL) and RGB camera. This method use a known four-hole calibration board as the target. It mainly include two modules: (1) the LiDAR module, and (2) the camera module. The first mudule is specially designed for the NRL, the main process is reconstruct the boundary points of the detected target point cloud, to increase the accuracy of the hole center detection. The second module proposes a new method to get better corner estimation of the ArUco markers, therefore better hole center extraction for board pose estimation. It achieves high accuracy with just one target, one pose, and one shot. The source code will be release after the acceptance.
 ## Overview
 <div align="center">
     <img src="pics/f_overview.jpg" width = 100%><br>
@@ -50,7 +50,7 @@ Clone the repository and catkin_make:
 
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/tdcsu1998/Livox2Hik.git
+git clone https://github.com/tdcsu1998/OTPS_calib.git
 cd ../
 catkin_make
 source ~/catkin_ws/devel/setup.bash
