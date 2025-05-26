@@ -3,7 +3,7 @@
 ## Overview
 <div align="center">
     <img src="pics/f_overview.jpg" width = 100%><br>
-    <font color=#a0a0a0 size=4> The framework of the Lvox2Hik</font>
+    <font color=#a0a0a0 size=4> The framework of the OTPS-Calib</font>
 </div>
 
 ## colorlized Point cloud  example
@@ -15,14 +15,6 @@
     <img src="pics/f_real_world_result.jpg" width = 100% ><br>
     <font color=#a0a0a0 size=4>An example of a indoor calibration scenario. We color the point cloud with the calibrated extrinsic and compare with existing methods. For more information, please refer to our paper when it has been accpeted</font>
 </div>
-
-
-
-
-## Thanks
-Our code is developed part from the [velo2cam](https://github.com/beltransen/velo2cam_calibration) and the [lvt2calib](https://github.com/beltransen/velo2cam_calibration).
-
-
 
 ## 1. Prerequisites
 ### 1.1 **Ubuntu** and **ROS**
@@ -58,3 +50,6 @@ source ~/catkin_ws/devel/setup.bash
 
 ## 3. Run our example
 The exmaple dataset will be released after the paper has been acepted.
+
+## 4. Thanks
+Our code is developed part from the [velo2cam](https://github.com/beltransen/velo2cam_calibration) and the [lvt2calib](https://github.com/beltransen/velo2cam_calibration).
